@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MASSAGE X BETTY CLAN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f8f8f8;
+        }
+        header {
+            background: #d63384;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #fff;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d63384;
+        }
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #d63384;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        form button {
+            background: #d63384;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 48%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MASSAGE X BETTY CLAN</h1>
+    <p>Massages relaxants avec huiles naturelles et artificielles</p>
+</header>
+
+<nav>
+    <a href="#inscription">Inscription</a>
+    <a href="#reservation">Prendre rendez-vous</a>
+    <a href="#galerie">Galerie</a>
+</nav>
+
+<section id="inscription">
+    <h2>Créer un compte</h2>
+    <form>
+        <input type="text" placeholder="Nom complet" required>
+        <input type="email" placeholder="Adresse e-mail" required>
+        <input type="password" placeholder="Mot de passe" required>
+        <textarea placeholder="Préférences de massage (zones, techniques, huiles, etc.)"></textarea>
+        <button type="submit">Créer mon profil</button>
+    </form>
+</section>
+
+<section id="reservation">
+    <h2>Prendre un rendez-vous</h2>
+    <form>
+        <input type="date" required>
+        <select required>
+            <option disabled selected>Choisissez une huile</option>
+            <option>Huile naturelle</option>
+            <option>Huile artificielle</option>
+            <option>Mix personnalisé</option>
+        </select>
+        <textarea placeholder="Commentaires, préférences horaires, etc."></textarea>
+        <button type="submit">Réserver</button>
+    </form>
+</section>
+
+<section id="galerie">
+    <h2>Nos praticiens et praticiennes</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1587691592099-ea670aa1a1b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Femme 1">
+        <img src="https://images.unsplash.com/photo-1590080876400-d60d62ab2145?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Homme 1">
+        <img src="https://images.unsplash.com/photo-1573497019134-99a5ec1dedc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Femme 2">
+        <img src="https://images.unsplash.com/photo-1593032457864-d5bbf6c6c5ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Homme 2">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 MASSAGE X BETTY CLAN. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
